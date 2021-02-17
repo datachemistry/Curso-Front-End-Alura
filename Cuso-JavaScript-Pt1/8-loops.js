@@ -35,6 +35,15 @@ while(contador < 3){
 
 }
 
+let destinoExiste = false;
+
+for(let cont = 0; cont < 3; cont++){
+    if(listaDeDestinos[cont] == destino){
+        destinoExiste = true;
+    }
+
+}
+
 //if () {
 //    console.log("Boa viagem!!!");
 //    listaDeDestinos.splice(1, 1); 
